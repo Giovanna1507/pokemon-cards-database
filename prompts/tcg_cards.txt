@@ -1,0 +1,29 @@
+[ação]
+create a script to create a table in postgresql
+
+[context]
+the frist table is a table to save a pokemon tcg card
+the seconde table is a table to save a collections set
+
+connect to table with foreign key
+
+[informações]
+frist table:
+- id
+- hp
+- name 
+- type
+- stage
+- info
+- attack
+- dammage 
+- weak
+- resis
+- retreat
+- card number in collection
+
+second table:
+- id
+- collection set name
+- release date
+- total card in collection
