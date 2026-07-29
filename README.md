@@ -6,12 +6,17 @@
 
 A structured relational database of Pokémon Trading Card Game (TCG) cards, with scripts for creating tables, views and seeds (initial data). The goal is to provide a reliable and well-organized database for queries, filters and integration with other applications, like cards search tools, collections managers, deck builders, or price comparison apps.   
 
-# 🗄️ Database structure
+---
+
+## 🗄️ Database structure
 
 The project is compatible with **MariaDB** and **MS SQL**.
 
+```text
 db_scripts/
 ├── tables/       # Scripts de criação das tabelas
 ├── seeds/        # Scripts de população inicial (dados de exemplo/reais)
 └── views/        # Views para consultas facilitadas
 prompts/          # Prompts utilizados para geração/organização de dados
+```
+---
